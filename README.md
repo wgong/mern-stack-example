@@ -24,6 +24,22 @@ npm install
 npm start
 ```
 
+### Issues
+
+#### `Error: error:0308010C:digital envelope routines::unsupported`
+
+https://stackoverflow.com/questions/69692842/error-message-error0308010cdigital-envelope-routinesunsupported
+
+
+I am using node v18
+
+quick fix:
+```
+npm audit fix --force
+```
+
+### [Source](https://github.com/wgong/mern-stack-example)
+
 ## Disclaimer
 
 Use at your own risk; not a supported MongoDB product
